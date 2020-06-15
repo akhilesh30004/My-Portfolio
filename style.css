@@ -38,7 +38,7 @@ font-size: 2.5rem;
 font-weight: bold;
 color: red;
 }
-@media (max-width: 567px)
+@media (max-width: 500px)
 {
 	#title {
     background-image: url(/My-Portfolio/cpage.jpg);
