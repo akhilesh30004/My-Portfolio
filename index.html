@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Akhilesh_Kumar--portfolio</title>
-	<link rel="stylesheet" type="text/css" href="/My-Portfolio/bootstrap.min.css">
+	<head>
+		<title>Akhilesh_Kumar--portfolio</title>
+		<link rel="stylesheet" type="text/css" href="/My-Portfolio/css/bootstrap.min.css">
 		<link rel="stylesheet" href="/My-Portfolio/style.css">
 		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-		<link rel="stylesheet"href="/My-Portfolio/font-awesome.min.css">
+		<link rel="stylesheet"  href="/My-Portfolio/font-awesome.min.css">
 		<!-- font awesome -->
-		<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
-</head>
-<body>
-	<section id="title">
-		<div class="container-fluid">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+	</head>
+	<body>
+		<section id="title">
+			<div class="container-fluid" id="headerDiv">
 				<nav class="navbar navbar-expand-lg ">
 					<a class="navbar-brand"href="navbar-brand" href="">@khilesh</a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,13 +31,44 @@
 							
 						</ul>
 					</nav>
-				</div>					
-	</section>
-	<section id="page-content">
-					<div class="content">
-						<h1>i do a bit of everything</h1>
-						<p>Hi, I'm Akhilesh Kumar - I’m a designer, a presentation wizard, a storyteller, an illustrator, a photographer, a motion designer, a teacher, and a lifetime student. I’m an optimist. I’m years of experiences. And I will be more things yet to come..</p>
-					</div>
-				</section>				
-</body>
-</html>
+				</div>
+			</section>
+			<section id="page-content">
+				<div class="content">
+					<h1>i do a bit of everything</h1>
+					<p>Hi, I'm Akhilesh Kumar - I’m a designer, a presentation wizard, a storyteller, an illustrator, a photographer, a motion designer, a teacher, and a lifetime student. I’m an optimist. I’m years of experiences. And I will be more things yet to come..</p>
+				</div>
+			</section>
+			<div class="isotope-filters isotope-tooltip ">
+				<button data-filter="" class="active">Filter - All </button>
+				<button data-filter="" class="">Photoshop</button>
+				<button data-filter="" class="">Illustrator</button>
+				<button data-filter="" class="">CorelDRAW</button>
+				
+			</div>
+			<div class="imgcontent">
+				<div><<img src="/My-Portfolio/arch.jpg"class="img-thumbnail"></div>
+				<div><img src="/My-Portfolio/carm8.jpg"class="img-thumbnail"></div>
+				<div><img src="/My-Portfolio/my doc_3.jpg"class="img-thumbnail"></div>
+
+			</div>
+			<div class="imgcontent">
+				<div><<img src="/My-Portfolio/banner_fi_2.jpg"class="img-thumbnail"></div>
+				<div><img src="/My-Portfolio/ke1.jpg"class="img-thumbnail"></div>
+				<div><img src="/My-Portfolio/rotate-final.gif"class="img-thumbnail"></div>
+				
+			</div>
+		</body>
+		<script>
+			window.onscroll = function() {myFunction()};
+			var header = document.getElementById("headerDiv");
+			var sticky = 500;
+			function myFunction() {
+			if (window.pageYOffset > sticky) {
+			header.classList.add("sticky");
+			} else {
+			header.classList.remove("sticky");
+			}
+			}
+		</script>
+	</html>
