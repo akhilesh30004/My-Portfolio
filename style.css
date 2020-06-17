@@ -1,6 +1,5 @@
 #title{
-background-image: url("/My-Portfolio
-/cpage.jpg");
+background-image: url("cpage.jpg");
 height: 100vh;
 background-attachment: fixed;
 
@@ -27,8 +26,7 @@ padding:0 0 4.5rem;
 padding: 0 18px;
 }
 .navbar-toggler-icon{
-background-image:url(/My-Portfolio
-/download1.png);
+background-image:url(download1.png);
 background-size: cover;
 }
 #page-content{
@@ -80,8 +78,7 @@ transition: all ease 0.5s;
 @media (max-width: 567px)
 {
 #title {
-background-image: url(/My-Portfolio
-/cpage.jpg);
+background-image: url(cpage.jpg);
 /* height: 768px; */
 background-size: cover;
 height: 277px;
