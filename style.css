@@ -1,11 +1,13 @@
-
 #title{
-	background-image: url("/My-Portfolio/cpage.jpg");
-	height: 768px;
-}
+background-image: url("/My-Portfolio
+/cpage.jpg");
+height: 100vh;
+background-attachment: fixed;
 
+
+}
 .container-fluid{
-padding:3% 15% 7%;
+padding:1% 15%;
 }
 .nav-link{
 color: white;
@@ -25,25 +27,103 @@ padding:0 0 4.5rem;
 padding: 0 18px;
 }
 .navbar-toggler-icon{
-background-image:url(/My-Portfolio/download1.png);
+background-image:url(/My-Portfolio
+/download1.png);
 background-size: cover;
 }
 #page-content{
-	text-align: center;
-	padding: 7% 15%;
+text-align: center;
+padding: 7% 15%;
 }
 h1{
-	font-family: Alaska;
+font-family: Alaska;
 font-size: 2.5rem;
 font-weight: bold;
 color: red;
 }
-@media (max-width: 500px)
-{
-	#title {
-    background-image: url(/My-Portfolio/cpage.jpg);
-    /* height: 768px; */
-    background-size: cover;
-    height: 277px;
+#headerDiv{position: fixed;z-index: 9;}
+#headerDiv.sticky{background-color: rgba(185, 82, 82, 0.9);}
+#headerDiv.sticky .navbar{padding:0;}
+/*---------------------------------------------------------*/
+.imgcontent {
+display: flex;
+margin: 12px 0px;
 }
+.imgcontent div {
+display: flex;
+
+height: 250px;
+width: 33.33%;
+justify-content: center;
+align-items: center;
+position: relative;
+transition: all ease 0.5s;
+position: relative;
+overflow: hidden;
+z-index: 1;
+border-radius: 5px;
+}
+.imgcontent div:nth-child(2) {
+/* background: green;*/
+}
+.imgcontent div:nth-child(3) {
+/* background: yellow;*/
+}
+.imgcontent div img {
+
+transition: all ease 0.5s;
+}
+.imgcontent div:hover:after {content: "";background: #b90909;height: 100%;width: 100%;position: absolute;opacity: 0.5;}
+.imgcontent div:hover img {transform: scale(1.5);}
+.imgcontent div:before {content: "";transition: all ease 0.5s;}
+/*...........................................................*/
+@media (max-width: 567px)
+{
+#title {
+background-image: url(/My-Portfolio
+/cpage.jpg);
+/* height: 768px; */
+background-size: cover;
+height: 277px;
+}
+.imgcontent div{
+	height: 100px;
+}
+}
+.isotope-filters {
+display: table;
+margin: 0 auto 40px;
+text-align: center;
+}
+.isotope-filters button.active, .isotope-filters button:hover {
+color: #7c60d5;
+}
+.isotope-filters button {
+z-index: 2;
+position: relative;
+border: none;
+background: none;
+margin: 0px 5px;
+cursor: pointer;
+padding: 0px 20px;
+font-size: 16px;
+color: #868894;
+font-weight: 500;
+transition: all 0.3s ease-in-out;
+-webkit-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+-ms-transition: all 0.3s ease-in-out;
+-webkit-transition: all 0.3s ease-in-out;
+}
+.isotope, .iq-masonry {
+margin: 0 -15px 0 0;
+float: left;
+width: 100%;
+z-index: 2;
+}
+.isotope.iq-columns-5 .iq-grid-item {
+width: 20%;
+}
+.isotope .iq-grid-item {
+padding: 0 15px 30px;
 }
