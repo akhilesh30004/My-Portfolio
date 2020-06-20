@@ -40,7 +40,7 @@ font-weight: bold;
 color: red;
 }
 #headerDiv{position: fixed;z-index: 9;}
-#headerDiv.sticky{background-color: rgba(185, 82, 82, 0.9);}
+#headerDiv.sticky{background-color: rgba(133, 199, 215);}
 #headerDiv.sticky .navbar{padding:0;}
 /*---------------------------------------------------------*/
 .imgcontent {
