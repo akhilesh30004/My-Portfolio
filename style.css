@@ -3,7 +3,7 @@ background-image: url("/My-Portfolio/cpage.jpg");
 height: 100vh;
 background-attachment: fixed;
 background-repeat: no-repeat;
-background-size: cover;
+background-size: contain;
 }
 .container-fluid{
 padding:1% 15%;
