@@ -128,3 +128,8 @@ padding: 0 15px 30px;
 padding: 7% 15%;
 text-align: center;
 }
+.content > img {
+    position: absolute;
+    left: 48px;
+    z-index: -1;
+}
