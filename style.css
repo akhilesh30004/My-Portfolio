@@ -37,7 +37,7 @@ h1{
 font-family: Alaska;
 font-size: 2.5rem;
 font-weight: bold;
-color: red;
+color: black;
 }
 #headerDiv{position: fixed;z-index: 9;}
 #headerDiv.sticky{background-color: rgba(133, 199, 215);}
