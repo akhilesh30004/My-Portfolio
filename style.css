@@ -43,37 +43,20 @@ color: black;
 #headerDiv.sticky{background-color: rgba(133, 199, 215);}
 #headerDiv.sticky .navbar{padding:0;}
 /*---------------------------------------------------------*/
-.imgcontent {
-display: flex;
-margin: 12px 0px;
-}
-.imgcontent div {
-display: flex;
 
-height: 250px;
-width: 33.33%;
-justify-content: center;
-align-items: center;
-position: relative;
-transition: all ease 0.5s;
-position: relative;
-overflow: hidden;
-z-index: 1;
-border-radius: 5px;
-}
-.imgcontent div:nth-child(2) {
-/* background: green;*/
-}
-.imgcontent div:nth-child(3) {
-/* background: yellow;*/
-}
-.imgcontent div img {
 
+.imgcontent .imagebox {
+	overflow: hidden;
+	padding: 0;
+	margin:0;
+}
+
+.imgcontent .imagebox img {
 transition: all ease 0.5s;
 }
-.imgcontent div:hover:after {content: "";background: #b90909;height: 100%;width: 100%;position: absolute;opacity: 0.5;}
-.imgcontent div:hover img {transform: scale(1.5);}
-.imgcontent div:before {content: "";transition: all ease 0.5s;}
+.imgcontent .imagebox:hover:after {content: "";background: #b90909;height: 100%;width: 100%;position: absolute;opacity: 0.5;}
+.imgcontent .imagebox:hover img {transform: scale(1.5);}
+.imgcontent .imagebox:before {content: "";transition: all ease 0.5s;}
 /*...........................................................*/
 @media (max-width: 567px)
 {
