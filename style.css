@@ -3,6 +3,7 @@ background-image: url("/My-Portfolio/cpage.jpg");
 height: 100vh;
 background-attachment: fixed;
 background-repeat: no-repeat;
+	background-size: cover;
 
 }
 .container-fluid{
